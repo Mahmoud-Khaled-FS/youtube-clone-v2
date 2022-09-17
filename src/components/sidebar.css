@@ -1,0 +1,26 @@
+.sidebar__button {
+  /* background-color: #383838; */
+  border: none;
+  outline: none;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  min-height: 50px;
+  height: 50px;
+  align-items: center;
+  cursor: pointer;
+  padding-left: 10px;
+  padding-right: 15px;
+  background-color: inherit;
+}
+
+.sidebar__button.active,
+.sidebar__button:hover {
+  background-color: #383838;
+}
+@media screen and (max-width: 899px) {
+  .sidebar__button span:last-child {
+    white-space: nowrap;
+    margin-left: 10px;
+  }
+}

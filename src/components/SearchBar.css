@@ -1,0 +1,15 @@
+.searcbar:focus-within {
+  border: 1px solid #1c62b9;
+}
+.input__searcbar {
+  border: none;
+  outline: none;
+  background-color: inherit;
+  width: 350px;
+  color: #fff;
+}
+@media (max-width: 520px) {
+  .input__searcbar {
+    width: 150px;
+  }
+}
